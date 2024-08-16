@@ -41,6 +41,9 @@ body{
 .navbar-icon-color{
 	color: #343f52 !important;
 }
+.navbar .navbar-collapse{
+	width: 70%;
+}
 .navbar .navbar-collapse>ul>li div.drop{
 	display: none;
 	position: absolute;
@@ -237,7 +240,7 @@ header{
     border-bottom: 0;
     border-left: .3em solid transparent;
     position: absolute;
-    left: 23.8rem;
+    right: -12px;
     top: 1rem;
 }
 
